@@ -1,6 +1,7 @@
 """DevJoke is a cli program that returns programming jokes randomly. (Internet required)"""
 
 import requests
+import property
 
 class DevJoke:
     """DevJoke main class - DevJoke program starts from this class."""
