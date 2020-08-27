@@ -13,11 +13,11 @@ class DevJoke:
 
         self.joke = ""
 
-        self.getTheJoke()
+        self.get_the_joke()
 
         print(self.joke)
 
-    def getTheJoke(self):
+    def get_the_joke(self):
         """This method sends GET request to API_URL defined in property.py"""
 
         try:
