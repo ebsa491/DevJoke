@@ -2,6 +2,7 @@
 
 import sys
 import json
+import random
 import requests
 import properties
 
@@ -29,7 +30,7 @@ class DevJoke:
 
         except:
 
-            print("Can't connect to the server baby!! Go and complete your project, dead-line comes soon!")
+            print(random.choice(properties.MESSAGES))
             sys.exit(1)
 
 if __name__ == "__main__":
