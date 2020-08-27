@@ -1,6 +1,6 @@
 import requests
 
-class DevJove:
+class DevJoke:
     """DevJoke main class - DevJoke program starts from this class."""
     def __init__(self):
         """INIT"""
