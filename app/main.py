@@ -10,7 +10,12 @@ class DevJoke:
 
     def __init__(self):
         """INIT"""
-        pass
+
+        self.joke = ""
+
+        self.getTheJoke()
+
+        print(self.joke)
 
     def getTheJoke(self):
         """This method sends GET request to API_URL defined in property.py"""
